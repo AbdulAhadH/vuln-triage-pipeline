@@ -54,10 +54,6 @@ A raw vulnerability scan gives severity scores (CVSS), but severity alone does n
 - Target: Windows 11 VM on a VirtualBox host only network 
 - Scan type: Basic Network Scan, credentialed, using a local admin account
 
-  ## Scan Results
-
-![Nessus scan results](lab-vm-scan.jpeg)
-
 ## Priority formula
 
 If a CVE is on the CISA KEV list, it ranks above everything else, since that confirms it is being used in real attacks right now, regardless of its raw severity score:
@@ -72,6 +68,8 @@ else:
 Everything not on the KEV list is ranked by severity times likelihood (CVSS x EPSS), so a severe but rarely targeted finding does not automatically outrank a moderate one that is commonly exploited.
 
 ## Result
+
+![Nessus scan results](lab-vm-scan.jpeg)
 
 Out of 129 total findings on the scan, 3 had an actual CVE number attached. The rest were informational checks (OS fingerprinting, open port lists, installed software detection, and similar). Here is how the pipeline ranked the 3 CVEs:
 
