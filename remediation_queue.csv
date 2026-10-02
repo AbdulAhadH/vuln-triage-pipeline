@@ -1,0 +1,4 @@
+cve,priority_score,cvss,epss,in_kev,plugin_name
+CVE-2013-3900,1088.0,8.8,0.44647,True,WinVerifyTrust Signature Validation CVE-2013-3900 Mitigation (EnableCertPaddingCheck)
+CVE-1999-0524,67.5234,2.1,0.32154,False,ICMP Timestamp Request Remote Date Disclosure
+CVE-2022-0001,3.302,6.5,0.00508,False,Windows Speculative Execution Configuration Check - Intel BHI (CVE-2022-0001)
