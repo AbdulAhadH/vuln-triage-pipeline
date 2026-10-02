@@ -56,7 +56,7 @@ A raw vulnerability scan gives severity scores (CVSS), but severity alone does n
 
   ## Scan Results
 
-![Nessus scan results](lab-vm-scan.jpg)
+![Nessus scan results](lab-vm-scan.jpeg)
 
 ## Priority formula
 
